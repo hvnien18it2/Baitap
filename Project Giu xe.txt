@@ -1,0 +1,138 @@
+package NhaGiuXe;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class NhapXe {
+	String masoxe;
+	String tenxe;
+	int sl;
+	String Person;
+	float gia;
+	String mavitri;
+	String time;
+	
+	public String getMasoxe() {
+		return masoxe;
+	}
+	public void setMasoxe(String masoxe) {
+		this.masoxe = masoxe;
+	}
+	public String getTenxe() {
+		return tenxe;
+	}
+	public void setTenxe(String tenxe) {
+		this.tenxe = tenxe;
+	}
+	public int getSl() {
+		return sl;
+	}
+	public void setSl(int sl) {
+		this.sl = sl;
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+	public String getPerSon() {
+		return Person;
+	}
+	public void setPerSon(String Person) {
+		this.Person = Person;
+	}
+	public float getGia() {
+		return gia;
+	}
+	public void setGia(float gia) {
+		this.gia=gia;
+	}
+	public String getVitri() {
+		return mavitri;
+	}
+	public void setVitri(String mavitri) {
+		this.mavitri=mavitri;
+	}
+	public NhapXe() {
+		
+	}
+	public NhapXe(String masoxe,String tenxe,int sl,String Person,float gia,String mavitri,String time) {
+		this.masoxe=masoxe;
+		this.tenxe=tenxe;
+		this.sl=sl;
+		this.Person=Person;
+		this.time=time;
+		this.gia=gia;
+		this.mavitri=mavitri;
+	}
+}
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+package NhaGiuXe;
+import java.text.SimpleDateFormat;
+import java.util.Enumeration;
+import java.util.Scanner;
+import java.util.Vector;
+
+public class Quanlyxe {
+	Vector list = new Vector();
+	public Quanlyxe() {
+		while(true) {
+			System.out.println("\n Quan ly xe");
+			System.out.println("1. Nhap Xe:");
+			System.out.println("2. Xem thong tin:");
+			int n;
+			Scanner key = new Scanner(System.in);
+			System.out.println("Moi ban chon chuc nang:");
+			n = key.nextInt();
+			switch(n) {
+				case 1: NhapTT();
+					break;
+				case 2: InTT();
+					break;
+			}
+		}
+	}
+	public void NhapTT() {
+		Scanner key = new Scanner(System.in);
+		int n;
+		System.out.println("Nhap so luong xe  can dang ki =");
+		n =Integer.parseInt(key.nextLine());
+		for(int i=0;i<n;i++) {
+			System.out.println("Nhap xe dang ki thu "+(i+1));
+			System.out.println("Nhap ma so xe =");
+			String masoxe=key.nextLine();
+			System.out.println("Nhap ten xe :");
+			String tenxe=key.nextLine();
+			System.out.println("Nhap so luong :");
+			int sl=Integer.parseInt(key.nextLine());
+			System.out.println("Ten nguoi so huu xe :");
+			String Person=key.nextLine();
+			System.out.println("Thoi gian giu xe :");
+			String time=key.nextLine();	
+			System.out.println("Nhap gia giu xe :");
+			float gia=Float.parseFloat(key.nextLine());
+			System.out.println("Nhap vi tri xe =");
+			String mavitri=key.nextLine();
+			NhapXe b = new NhapXe(masoxe,tenxe,sl,Person,gia,mavitri,time);
+			list.add(b);
+		}	
+		
+	}
+	public void InTT() {
+		Enumeration xXe = list.elements();
+		int i=1;
+		while(xXe.hasMoreElements()) {
+			NhapXe Xe = (NhapXe)xXe.nextElement();
+			System.out.println("Ma so xe ="+Xe.getMasoxe()+" , ten xe la "+Xe.getTenxe()+"\n, ten nguoi so huu la: "+Xe.getPerSon()+" va vi tri xe la: "+Xe.getVitri());
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Quanlyxe();
+	}
+}

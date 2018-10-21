@@ -1,0 +1,53 @@
+
+ Quan ly xe
+1. Nhap Xe:
+2. Xem thong tin:
+Moi ban chon chuc nang:
+1
+Nhap so luong xe  can dang ki =
+2
+Nhap xe dang ki thu 1
+Nhap ma so xe =
+123 4k212
+Nhap ten xe :
+NF
+Nhap so luong :
+1
+Ten nguoi so huu xe :
+Huynh Van Nien
+Thoi gian giu xe :
+18h
+Nhap gia giu xe :
+10000
+Nhap vi tri xe =
+B32
+Nhap xe dang ki thu 2
+Nhap ma so xe =
+34-2n3
+Nhap ten xe :
+KI
+Nhap so luong :
+1
+Ten nguoi so huu xe :
+Nguyen Van A
+Thoi gian giu xe :
+21h
+Nhap gia giu xe :
+20000
+Nhap vi tri xe =
+H23
+
+ Quan ly xe
+1. Nhap Xe:
+2. Xem thong tin:
+Moi ban chon chuc nang:
+2
+Ma so xe =123 4k212 , ten xe la NF
+, ten nguoi so huu la: Huynh Van Nien va vi tri xe la: B32
+Ma so xe =34-2n3 , ten xe la KI
+, ten nguoi so huu la: Nguyen Van A va vi tri xe la: H23
+
+ Quan ly xe
+1. Nhap Xe:
+2. Xem thong tin:
+Moi ban chon chuc nang:
