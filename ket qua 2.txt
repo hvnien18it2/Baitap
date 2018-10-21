@@ -1,0 +1,43 @@
+
+ Quan ly sinh vien
+1. Nhap Thong tin
+2. Xem Bao cao
+Moi ban chon chuc nang:
+1
+Nhap so luong sinh vien dang ki:
+2
+Nhap thong tin sv thu 1
+Nhap ma sinh vien =
+18A2
+Nhap ma phong dang ki = 
+B512
+Nhap ten sinh vien: 
+Huynh Van Nien
+Nhap phi o tro/thang :
+700000
+Ngay dang ki:
+10/4/2013
+Nhap thong tin sv thu 2
+Nhap ma sinh vien =
+18S2
+Nhap ma phong dang ki = 
+B612
+Nhap ten sinh vien: 
+Nguyen Van A
+Nhap phi o tro/thang :
+800000
+Ngay dang ki:
+12/5
+
+ Quan ly sinh vien
+1. Nhap Thong tin
+2. Xem Bao cao
+Moi ban chon chuc nang:
+2
+Ma SV = 18A2 va ten Sinh Vien la: Huynh Van Nien co ma phong tro la : B512
+Ma SV = 18S2 va ten Sinh Vien la: Nguyen Van A co ma phong tro la : B612
+
+ Quan ly sinh vien
+1. Nhap Thong tin
+2. Xem Bao cao
+Moi ban chon chuc nang:
